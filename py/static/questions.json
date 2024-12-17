@@ -1,0 +1,22 @@
+[
+    {
+        "header": "Question 1",
+        "text": "Were the portion sizes adequate for the price paid?"
+    },
+    {
+        "header": "Question 2",
+        "text": "How would you rate the overall dining experience at the restaurant?"
+    },
+    {
+        "header": "Question 3",
+        "text": "How would you rate your overall dining experience at our restaurant?"
+    },
+    {
+        "header": "Question 4",
+        "text": "What specific aspects of your experience did you enjoy the most?"
+    },
+    {
+        "header": "Question 5",
+        "text": "Were there any areas where you felt our restaurant could improve?"
+    }
+]

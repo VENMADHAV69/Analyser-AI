@@ -1,0 +1,261 @@
+.navbar-nav .nav-link:hover {
+    color: #27374D !important;
+  }
+  .gradient-custom {
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #000, #A0153E, #000);
+}
+.gradient-custom2 {
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #000, #A0153E, #000);
+}
+
+.text-custom {
+  color: #000000 !important;
+}
+
+#questionHeader{
+  background-color: #BED1CF;
+}
+.btn-outline-custom{
+  border-radius: 5px;
+  border-color: #000000;
+  
+}
+
+.btn-outline-custom:hover{
+  background-color: #27374D;
+  color: white;
+}
+
+.content{
+    text-align: center;
+    padding-top: 250px;
+}
+
+.cute-font-regular {
+  font-family: "Cute Font", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+  color: white;
+  
+}
+
+  
+  .whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 400%;
+    color: rgb(0, 0, 0);
+  }
+
+  
+  
+  .montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(4, 4, 4);
+    font-style: italic;
+  }
+  
+
+  .custom-alert {
+    width: 400px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    padding: 20px; /* Adjust padding as needed */
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, #ffffff, #f6f6f6);
+    padding: 50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 30px; /* Adjust width as needed */
+    height: 30px;
+}
+
+#alertMessage {
+    margin: 0;
+    font-size: 25px;
+    text-align:center;
+   color: rgb(0, 0, 0);
+  
+}
+
+
+
+.custom-alert button:hover {
+    background-color: #D1495B;
+}
+
+.btn-outline-custom1{
+  border-radius: 5px;
+  border-color: white;
+  position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    width: 200px;
+    background: linear-gradient(to right, #9DB2BF,#9DB2BF );
+}
+
+.btn-outline-custom1:hover{
+  background: #27374D;
+  border-color: white;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.bg-custom12 {
+            
+  background: linear-gradient(to right, #262424, #262424);
+ 
+}
+.bs-customt{
+  background: linear-gradient(to right, #262424, #262424);
+}
+.nav-link {
+
+color: white;
+font-size: 16px; 
+
+}
+.nav-link:hover {
+color: #27374D;
+}
+
+
+.container {
+  margin-top: 150px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  flex: none;
+  position: relative;
+  
+}
+
+
+
+.inria-serif-bold {
+font-family: "Inria Serif", serif;
+font-weight: 500;
+font-style: normal;
+font-size: 200px;
+text-align:center;
+background-clip: text;
+-webkit-background-clip: text; /* For Safari/Chrome */
+color: transparent; /* Set the text color to transparent */
+color:#f4f4f4;
+transition: transform 0.5s ease; /* Add transition for transform */
+}
+
+.inria-serif-regular {
+font-family: "Inria Serif", serif;
+padding-top: 10px;
+font-weight: 400;
+font-style:italic;
+font-weight: lighter;
+color: #030303;
+font-size: 30px;
+text-align: center;
+
+}
+
+.btn-cust1{
+background-color: #27374D;
+color: white;
+font-size: large; 
+font-weight:400;
+padding: 10px;
+}
+.btn-cust1:hover{
+background-color: white;
+color: black;
+}
+.btn-cust2{
+font-size: large; 
+font-weight:400;
+background-color: white;
+color: #000;
+padding: 10px;
+}
+.btn-cust2:hover{
+background-color: #27374D;
+color: white;
+}
+
+.btn-custom134{
+  background-color: #D1495B;
+  color: #f5f5f5;
+}
+.btn-custom134:hover{
+  background-color: #000000;
+  color: white;
+}
+
+
+
+.card-title{
+  position: relative;
+  width: 1fr;
+  height: auto;
+  font-family: "Inria Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 45px;
+  text-align:center;
+  padding-top: 30px;
+  color: #000;
+}
+.card-text{
+  position: relative;
+  width: 1fr;
+  height: auto;
+  font-family: "Inria Serif", serif;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: left;
+  font-size: 25px;
+  padding-top: 25px;
+}
+.btn-c1{
+  background-color: #27374D;
+  color: white;
+  font-size: large; 
+  font-weight:400;
+  padding: 10px;
+  
+  
+}
+.btn-c1:hover{
+background-color: white;
+color: black;
+}
+
+.d-flex{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.rounded-clip {
+overflow: hidden;
+}

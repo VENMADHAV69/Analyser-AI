@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Questions</title>
+  <link rel="icon" href="{{ url_for('static', filename='logo2.png') }}" type="image/png" style="border-radius: 50%;">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body class="gradient-custom2 p-2 ">
+    <!--Navigation bar  Start-->
+         <!--Logo -->
+         <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-light gradient-custom fixed-top" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index1.html"><img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" width="250"  class="d-inline-block align-text-top"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-sucess center" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-dark btn-center" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarScroll">
+                  <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-custom12 rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-customt); --bs-nav-pills-link-active-bg: var(--bs-white); margin: 10px; width: 50%; ">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link  rounded-5  " style="margin: 15px;" aria-current="page" href="Home.html"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link  rounded-5" style="margin: 15px;" aria-current="page" href="index1.html"> <strong>Feedback</strong></a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link  rounded-5" style="margin: 15px;" href="/"><strong>Analyze Sentiment</strong></a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active rounded-5" style=" margin-right: 30px;  margin-top: 15px; margin-bottom: 15px; " href="update.html"><strong>Update Questions</strong></a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+      </nav>
+    <!--Navigation bar  Start-->
+ 
+    <div class="container mt-4" id="questionContainer" style="padding-top: 150px; padding-left: 200px; padding-right: 200px; margin-right: 50px; font-family: 'Inria Serif', serif;">
+        <div class="card">
+            <h5 class="card-header" id="questionHeader" style="text-align: center; padding-top: 25px; padding-bottom: 25px; font-size: x-large;">Update Questions</h5>
+            <div class="card-body">
+                <input type="text" id="newQuestionInput" class="form-control"  style="width: 100%; height: 60px; font-size: x-large; "  placeholder="Enter new question...">
+                <div class="d-flex justify-content-center">
+                    <button id="addQuestionButton" class="btn btn-danger mt-3 " style="--bs-btn-padding-x: 50px; text-align: center;">Add</button>
+                </div>
+            </div>
+            
+        </div>
+        <style>
+          /* Custom CSS for table data (cell) spacing */
+          #questionsList td {
+              padding: 10px; /* Adjust the value to increase or decrease spacing */
+          }
+      </style>
+      
+      <div class="container mt-4" id="questionContainer"  style="padding-top: 10px; padding-left: 10px; padding-right: 10px; margin-right: 40px; font-family: 'Inria Serif', serif;">
+          <div class="card mt-4">
+              <h5 class="card-header" style="text-align: center; padding-top: 25px; padding-bottom: 25px; font-size: x-large; background-color: #BED1CF; ">Existing Questions</h5>
+              <div class="card-body"> 
+                  <table id="questionsList" class="table table-bordered-black table-hover display-none text-center">
+                      <thead>
+                          <tr class="table-success">
+                              <th><strong>Question No</strong></th>
+                              <th><strong>Questions</strong></th>
+                              <th ></th> <!-- Empty column for Remove button -->
+                          </tr>
+                      </thead>
+                      <tbody style="font-size: 90px;">
+                          <!-- Your table rows (if any) go here -->
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+      
+      
+        
+
+  <script src="../static/update.js"></script>
+
+</body>
+</html>
